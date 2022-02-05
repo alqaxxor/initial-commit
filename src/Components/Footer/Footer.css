@@ -1,0 +1,17 @@
+footer {
+    padding: 30px;
+    color: wheat;
+    background-color: rgb(44, 21, 4);
+    
+}
+
+footer.light {
+    color: dimgrey;
+    background-color: wheat;
+}
+
+footer.dark {
+    color: wheat;
+    background-color: dimgray;
+}
+

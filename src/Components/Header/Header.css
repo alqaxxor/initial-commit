@@ -1,0 +1,44 @@
+header {
+    /* width: 300px;
+    height: 600px; */
+    padding: 30px;
+}
+   
+
+header.light {
+    color: dimgrey;
+    background-color: wheat;
+}
+
+header.dark {
+    color: wheat;
+    background-color: dimgray;
+}
+
+nav {
+    min-width: 280px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li{
+    list-style-type: none;
+    
+}
+    
+
+
+.nav__link {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav__link.dark {
+}
